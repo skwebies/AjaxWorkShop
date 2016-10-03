@@ -9,7 +9,7 @@ angular.module("mainModule")
             $scope.$route = $route;
 
             $scope.go = function (url) {
-                location.path(url);
+                $location.path(url);
             };
         }
     ]);
